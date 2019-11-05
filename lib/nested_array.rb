@@ -23,7 +23,7 @@ over_array = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 end
 
 def array_literal_matrix
-
+over_array_2 = [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
